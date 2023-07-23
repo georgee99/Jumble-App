@@ -9,8 +9,8 @@ describe('jumble functionality', () => {
   });
 
   test('should not run if n is out of bounds', () => {
-    expect(jumble('test', -1)).toBe(-1);
-    expect(jumble('test', 1001)).toBe(-1);
+    expect(jumble('test', -1)).toBe("The number is not in range");
+    expect(jumble('test', 1001)).toBe("The number is not in range");
   })
 
   test('should not change blanks', () => {

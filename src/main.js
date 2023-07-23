@@ -1,5 +1,5 @@
 function jumble(word, number) {
-    // check if number is between 1 and 1000
+    // Check if number is between 1 and 1000
     if (number < 0 || number > 1000) {
       return "The number is not in range";
     }
@@ -8,7 +8,7 @@ function jumble(word, number) {
         return "Word is undefined";
     }
   
-    // convert word to lowercase
+    // Convert word to lowercase
     word = word.toLowerCase().split('');
   
     for (let i = 0; i < word.length; i++) {
@@ -22,7 +22,7 @@ function jumble(word, number) {
       } else {
         // Remove any other characters
         word.splice(i, 1);
-        i--; // Decrement index to account for removed character
+        i--;
       }
     }
   
