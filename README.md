@@ -7,7 +7,7 @@ Jumble is designed to transform a given string input according to specific instr
 2. If the character is a number (1, 2, 3, ...) or a space, it will remain unchanged.
 3. If the character is any other character, it will be removed from the string.
 
-## Usage (#usage)
+## Usage <a name="usage"></a>
 
 To utilize the Jumble-App API and apply the "jumble" transformation to a given word, you must make POST requests to the API endpoint: http://ec2-13-210-73-150.ap-southeast-2.compute.amazonaws.com:5000/api/jumble/:n. Here, :n represents the number of letters by which the characters will shift.
 ### Request Format
