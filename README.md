@@ -1,6 +1,8 @@
 # Jumble-App
 
 ## Functionality
+_Note: Instance is currently terminated_
+
 Jumble is designed to transform a given string input according to specific instructions. The function takes two parameters as input: a string and an integer n, where n should be between 1 and 1000. The function follows the following rules to modify each character in the input string:
 
 1. If the character is a letter of the alphabet (a, b, c, ..., z), it will shift it to the right in the alphabet by n letters. If the shift results in reaching 'z', the function will wrap around and continue from 'a' as many times as necessary.
